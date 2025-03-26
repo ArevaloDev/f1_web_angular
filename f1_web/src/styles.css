@@ -2,3 +2,17 @@
 body {
   background: #000000; /* fallback for old browsers */
 }
+
+.card{
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  color: #fff;
+  margin: 10px;
+}
+
+
+.container{
+  width: 100%;
+  background-color: red;
+}
