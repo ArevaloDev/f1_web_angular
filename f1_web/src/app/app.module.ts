@@ -8,6 +8,7 @@ import { DriversComponent } from './components/drivers/drivers.component';
 import { TeamsComponent } from './components/teams/teams.component';
 import { SeasonsComponent } from './components/seasons/seasons.component';
 import { ResultsComponent } from './components/results/results.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResultsComponent } from './components/results/results.component';
     DriversComponent,
     TeamsComponent,
     SeasonsComponent,
-    ResultsComponent
+    ResultsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
